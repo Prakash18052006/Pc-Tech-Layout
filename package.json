@@ -1,0 +1,18 @@
+{
+  "name": "project-7-dynamic-backend-website",
+  "version": "1.0.0",
+  "description": "This is Database dynamic backend website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js, hbs"
+  },
+  "author": "Prakash Choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.10.0"
+  }
+}
